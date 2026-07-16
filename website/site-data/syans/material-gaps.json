@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1.0.0",
+  "contentVersion": "2026-07-15-v3",
+  "items": [
+    { "path": "public/lab/syans/assets/posters/ansheng-18th-anniversary.webp", "material": "公司十八周年真实活动海报", "status": "missing", "blocksLaunch": false, "acceptedFormats": ["webp", "png", "jpg"], "usage": "首页 NEWS & EVENTS 展示窗" },
+    { "path": "public/lab/syans/assets/wechat/wechat-qr.png", "material": "有效微信二维码", "status": "missing", "blocksLaunch": false },
+    { "path": "public/lab/syans/assets/company/company-01.webp", "material": "公司真实照片", "status": "missing", "blocksLaunch": false },
+    { "path": "public/lab/syans/assets/company/workshop-01.webp", "material": "真实维修现场照片", "status": "missing", "blocksLaunch": false },
+    { "path": "public/lab/syans/assets/company/team-01.webp", "material": "真实团队照片", "status": "missing", "blocksLaunch": false },
+    { "path": "public/lab/syans/assets/products/<category>/<model>.webp", "material": "具体型号真实产品图", "status": "missing", "blocksLaunch": false },
+    { "path": "public/lab/syans/assets/services/<service-slug>/<photo>.webp", "material": "对应维修项目的真实检测或维修照片", "status": "missing", "blocksLaunch": false },
+    { "path": "public/lab/syans/downloads/<verified-document>.pdf", "material": "版本和发布权限已确认的资料", "status": "missing", "blocksLaunch": false }
+  ]
+}

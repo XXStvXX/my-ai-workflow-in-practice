@@ -1,0 +1,15 @@
+{
+  "schemaVersion": "1.0.0",
+  "contentVersion": "2026-07-15-v4",
+  "company": {
+    "name": "沈阳安盛自动控制有限公司",
+    "englishName": "Shenyang Ansheng Automation Control Co., Ltd.",
+    "phone": "024-31976758",
+    "phoneDial": "02431976758",
+    "email": "ansheng@syans.com.cn",
+    "address": "中国辽宁 · 沈阳市沈河区奉天街333号1003室",
+    "wechatStatus": "obtain-via-phone-or-email",
+    "qqEnabled": false,
+    "environmentModuleEnabled": false
+  }
+}

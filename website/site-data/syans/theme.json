@@ -1,0 +1,81 @@
+{
+  "schemaVersion": "1.0.0",
+  "contentVersion": "2026-07-15-v4",
+  "status": "structural-ui-frozen-v4",
+  "visualDirection": "A-precision-engineering-catalogue",
+  "brandSource": "company-logo-primary",
+  "colors": {
+    "pageBackground": "#F7F8FA",
+    "surface": "#FFFFFF",
+    "border": "#D9DEE5",
+    "textPrimary": "#151A20",
+    "textSecondary": "#505963",
+    "brandPrimary": "#E11B21",
+    "brandPrimaryHover": "#B91319",
+    "technologyBlue": "#005AC2",
+    "technologyBlueDeep": "#003F88",
+    "technologyBlueSurface": "#EAF3FB",
+    "inverseSurface": "#151A20",
+    "inverseText": "#FFFFFF"
+  },
+  "brandUsage": {
+    "charcoal": "Primary text, navigation, structural areas and inverse surfaces",
+    "signalRed": "Logo continuity, key contact actions and critical highlights",
+    "technologyBlue": "Motion-control product families, technical content, downloads and Yaskawa-related business context without implying authorization",
+    "coolNeutrals": "Page backgrounds, borders, tables and technical information hierarchy"
+  },
+  "logo": {
+    "assetId": "company-logo-primary",
+    "aspectRatio": 2.161782,
+    "preserveOriginalColors": true,
+    "preserveAspectRatio": true,
+    "allowAiReplacement": false,
+    "primaryPlacement": "site-header",
+    "footerEnabled": false
+  },
+  "typography": {
+    "brandChinese": {
+      "family": "Noto Sans SC",
+      "weight": 500,
+      "delivery": "self-hosted-build-asset",
+      "fallback": ["PingFang SC", "Microsoft YaHei", "sans-serif"]
+    },
+    "brandEnglish": {
+      "family": "Roboto Condensed",
+      "weight": 400,
+      "delivery": "self-hosted-build-asset",
+      "fallback": ["Arial Narrow", "Arial", "sans-serif"]
+    }
+  },
+  "layout": {
+    "maxWidth": 1440,
+    "desktopSafeMargin": 64,
+    "tabletSafeMargin": 24,
+    "mobileSafeMargin": 20,
+    "spacingBase": 8,
+    "headerDesktopHeight": 88,
+    "utilityBarAddress": "中国辽宁 · 沈阳市沈河区奉天街333号1003室",
+    "desktopNavigationMode": "full-width-mega-menu",
+    "desktopNavigationBreakpoint": 901,
+    "footerLogoEnabled": false,
+    "densityReference": "Yaskawa Germany desktop information rhythm",
+    "densityModes": {
+      "showcase": "home hero only",
+      "standard": "narrative and detail pages",
+      "compact": "directories, contact information and footer"
+    },
+    "compactDoesNotMeanCramped": true,
+    "footerDesktopTargetHeight": "content-driven, approximately 320-380px"
+  },
+  "interaction": {
+    "onePrimaryCtaPerBody": true,
+    "duplicateBodyTargetsAllowed": false,
+    "headerFooterNavigationDuplicateException": true,
+    "desktopDropdownOpenDelayMs": 120,
+    "desktopDropdownCloseDelayMs": 240,
+    "mobileNavigationMode": "click-accordion",
+    "posterAutoplayIntervalMs": 7000,
+    "posterTransitionMs": 600,
+    "posterReducedMotionAutoplay": false
+  }
+}

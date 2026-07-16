@@ -1,0 +1,247 @@
+{
+  "schemaVersion": "1.0.0",
+  "contentVersion": "2026-07-15-v3",
+  "basePath": "/lab/syans",
+  "actions": [
+    {
+      "id": "global-header-home",
+      "sourceRoute": "*",
+      "label": "首页",
+      "role": "navigation",
+      "target": "/lab/syans",
+      "intent": "进入网站首页",
+      "placement": "header-primary-navigation",
+      "duplicateException": "页头负责进入导航；页脚相同目标仅作为页面结束后的恢复导航"
+    },
+    {
+      "id": "global-header-products",
+      "sourceRoute": "*",
+      "label": "产品",
+      "role": "navigation",
+      "target": "/lab/syans/products",
+      "intent": "进入产品目录",
+      "placement": "header-primary-navigation",
+      "duplicateException": "页头负责进入导航；页脚相同目标仅作为页面结束后的恢复导航"
+    },
+    {
+      "id": "global-header-services",
+      "sourceRoute": "*",
+      "label": "维修服务",
+      "role": "navigation",
+      "target": "/lab/syans/services",
+      "intent": "进入维修服务目录",
+      "placement": "header-primary-navigation",
+      "duplicateException": "页头负责进入导航；页脚相同目标仅作为页面结束后的恢复导航"
+    },
+    {
+      "id": "global-header-downloads",
+      "sourceRoute": "*",
+      "label": "资料下载",
+      "role": "navigation",
+      "target": "/lab/syans/downloads",
+      "intent": "进入资料目录",
+      "placement": "header-primary-navigation",
+      "duplicateException": "页头负责进入导航；页脚相同目标仅作为页面结束后的恢复导航"
+    },
+    {
+      "id": "global-header-about",
+      "sourceRoute": "*",
+      "label": "关于安盛",
+      "role": "navigation",
+      "target": "/lab/syans/about",
+      "intent": "阅读公司介绍",
+      "placement": "header-primary-navigation",
+      "duplicateException": "页头负责进入导航；页脚相同目标仅作为页面结束后的恢复导航"
+    },
+    {
+      "id": "global-header-contact",
+      "sourceRoute": "*",
+      "label": "联系我们",
+      "role": "navigation",
+      "target": "/lab/syans/contact",
+      "intent": "进入联系页面",
+      "placement": "header-primary-navigation",
+      "duplicateException": "页头负责进入导航；页脚相同目标仅作为页面结束后的恢复导航"
+    },
+    {
+      "id": "global-header-product-submenu",
+      "sourceRoute": "*",
+      "label": "产品二级页面名称",
+      "role": "navigation",
+      "target": "/lab/syans/products/{category}",
+      "intent": "从产品下拉菜单进入真实产品分类",
+      "placement": "header-products-dropdown",
+      "duplicateException": "与产品目录页的分类入口职责不同；此处为全站主导航"
+    },
+    {
+      "id": "global-header-service-submenu",
+      "sourceRoute": "*",
+      "label": "维修服务二级页面名称",
+      "role": "navigation",
+      "target": "/lab/syans/services/{service}",
+      "intent": "从维修服务下拉菜单进入真实服务页面",
+      "placement": "header-services-dropdown",
+      "duplicateException": "与维修目录页的服务入口职责不同；此处为全站主导航"
+    },
+    {
+      "id": "global-footer-products",
+      "sourceRoute": "*",
+      "label": "产品",
+      "role": "navigation",
+      "target": "/lab/syans/products",
+      "intent": "页面结束后恢复到产品目录",
+      "placement": "footer-recovery-navigation",
+      "duplicateException": "页脚恢复导航的明确例外，使用低强调文字链接"
+    },
+    {
+      "id": "global-footer-services",
+      "sourceRoute": "*",
+      "label": "维修服务",
+      "role": "navigation",
+      "target": "/lab/syans/services",
+      "intent": "页面结束后恢复到维修服务目录",
+      "placement": "footer-recovery-navigation",
+      "duplicateException": "页脚恢复导航的明确例外，使用低强调文字链接"
+    },
+    {
+      "id": "global-footer-downloads",
+      "sourceRoute": "*",
+      "label": "资料下载",
+      "role": "navigation",
+      "target": "/lab/syans/downloads",
+      "intent": "页面结束后恢复到资料目录",
+      "placement": "footer-recovery-navigation",
+      "duplicateException": "页脚恢复导航的明确例外，使用低强调文字链接"
+    },
+    {
+      "id": "global-footer-about",
+      "sourceRoute": "*",
+      "label": "关于安盛",
+      "role": "navigation",
+      "target": "/lab/syans/about",
+      "intent": "页面结束后恢复到公司介绍",
+      "placement": "footer-recovery-navigation",
+      "duplicateException": "页脚恢复导航的明确例外，使用低强调文字链接"
+    },
+    {
+      "id": "global-footer-contact",
+      "sourceRoute": "*",
+      "label": "联系我们",
+      "role": "navigation",
+      "target": "/lab/syans/contact",
+      "intent": "页面结束后恢复到联系页面",
+      "placement": "footer-recovery-navigation",
+      "duplicateException": "页脚恢复导航的明确例外，使用低强调文字链接"
+    },
+    {
+      "id": "global-footer-phone",
+      "sourceRoute": "*",
+      "label": "024-31976758",
+      "role": "contact",
+      "target": "tel:02431976758",
+      "intent": "直接拨打公司电话",
+      "placement": "footer-quick-contact",
+      "duplicateException": "页脚必要快捷联系；联系页正文中的电话卡片承担完整联系任务"
+    },
+    {
+      "id": "global-footer-email",
+      "sourceRoute": "*",
+      "label": "ansheng@syans.com.cn",
+      "role": "contact",
+      "target": "mailto:ansheng@syans.com.cn",
+      "intent": "向公司发送邮件",
+      "placement": "footer-quick-contact",
+      "duplicateException": "页脚必要快捷联系；联系页正文中的邮箱卡片承担完整联系任务"
+    },
+    {
+      "id": "products-category-directory",
+      "sourceRoute": "/lab/syans/products",
+      "label": "产品分类名称",
+      "role": "navigation",
+      "target": "/lab/syans/products/{category}",
+      "intent": "进入选定产品分类",
+      "placement": "body-category-directory",
+      "duplicateException": ""
+    },
+    {
+      "id": "product-detail-contact",
+      "sourceRoute": "/lab/syans/products/{category}",
+      "label": "联系公司确认",
+      "role": "primary",
+      "target": "/lab/syans/contact",
+      "intent": "确认具体产品需求",
+      "placement": "body-inquiry-panel",
+      "duplicateException": ""
+    },
+    {
+      "id": "product-detail-sibling-navigation",
+      "sourceRoute": "/lab/syans/products/{category}",
+      "label": "其他产品分类名称",
+      "role": "utility",
+      "target": "/lab/syans/products/{other-category}",
+      "intent": "切换到其他产品分类",
+      "placement": "body-sibling-navigation",
+      "duplicateException": ""
+    },
+    {
+      "id": "services-directory",
+      "sourceRoute": "/lab/syans/services",
+      "label": "维修服务名称",
+      "role": "navigation",
+      "target": "/lab/syans/services/{service}",
+      "intent": "进入选定维修服务",
+      "placement": "body-service-directory",
+      "duplicateException": ""
+    },
+    {
+      "id": "service-detail-contact",
+      "sourceRoute": "/lab/syans/services/{service}",
+      "label": "提交维修咨询",
+      "role": "primary",
+      "target": "/lab/syans/contact",
+      "intent": "准备并提交维修需求",
+      "placement": "body-inquiry-panel",
+      "duplicateException": ""
+    },
+    {
+      "id": "downloads-email-request",
+      "sourceRoute": "/lab/syans/downloads",
+      "label": "发送邮件",
+      "role": "primary",
+      "target": "mailto:ansheng@syans.com.cn",
+      "intent": "申请特定型号资料",
+      "placement": "body-material-notice",
+      "duplicateException": ""
+    },
+    {
+      "id": "contact-phone",
+      "sourceRoute": "/lab/syans/contact",
+      "label": "电话",
+      "role": "primary",
+      "target": "tel:02431976758",
+      "intent": "直接拨打公司电话",
+      "placement": "body-contact-directory",
+      "duplicateException": ""
+    },
+    {
+      "id": "contact-email",
+      "sourceRoute": "/lab/syans/contact",
+      "label": "邮箱",
+      "role": "secondary",
+      "target": "mailto:ansheng@syans.com.cn",
+      "intent": "向公司发送邮件",
+      "placement": "body-contact-directory",
+      "duplicateException": ""
+    },
+    {
+      "id": "global-breadcrumb-home",
+      "sourceRoute": "/lab/syans/{page}",
+      "label": "首页",
+      "role": "utility",
+      "target": "/lab/syans",
+      "intent": "返回网站首页层级",
+      "placement": "body-breadcrumb",
+      "duplicateException": "面包屑只负责层级返回，不作为营销行动"
+    }
+  ]
+}

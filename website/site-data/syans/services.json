@@ -1,0 +1,20 @@
+{
+  "schemaVersion": "1.0.0",
+  "contentVersion": "2026-07-15-v2",
+  "items": [
+    { "code": "S-01", "slug": "spindle-drive-repair", "name": "主轴驱动器维修", "summary": "围绕主轴驱动设备开展检测、维修与运行测试。" },
+    { "code": "S-02", "slug": "servo-drive-repair", "name": "伺服驱动器维修", "summary": "针对伺服驱动报警、运行异常等现象沟通检测需求。" },
+    { "code": "S-03", "slug": "cnc-system-repair", "name": "数控系统维修", "summary": "根据系统系列、版本和故障现象确认维修范围。" },
+    { "code": "S-04", "slug": "motor-repair", "name": "电机维修", "summary": "根据电机铭牌、运行状态和反馈信息开展检测。" },
+    { "code": "S-05", "slug": "inverter-repair", "name": "变频器维修", "summary": "根据设备功率、报警代码和现场现象确认处理方案。" },
+    { "code": "S-06", "slug": "junma-servo-repair", "name": "骏马伺服维修", "summary": "面向骏马伺服相关设备的故障检测与维修沟通。" },
+    { "code": "S-07", "slug": "machine-tool-spindle-repair", "name": "数控机床主轴维修", "summary": "针对机床主轴运行异常开展检测与维修需求确认。" }
+  ],
+  "steps": [
+    ["01", "需求确认", "提供设备型号、铭牌信息与故障现象。"],
+    ["02", "检测沟通", "确认检测对象、范围和设备交接方式。"],
+    ["03", "方案确认", "检测后确认维修方案、报价与预计周期。"],
+    ["04", "维修测试", "按确认方案处理，并进行相应运行测试。"],
+    ["05", "交付支持", "交付设备与记录，沟通后续使用事项。"]
+  ]
+}

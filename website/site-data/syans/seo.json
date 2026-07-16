@@ -1,0 +1,10 @@
+{
+  "schemaVersion": "1.0.0",
+  "contentVersion": "2026-07-15-v2",
+  "siteName": "沈阳安盛自动控制有限公司",
+  "officialEnglishName": "Shenyang Ansheng Automation Control Co., Ltd.",
+  "basePath": "/lab/syans",
+  "locale": "zh-CN",
+  "defaultDescription": "安川相关数控系统、伺服驱动、变频器、电机与机床主轴的产品支持、维修及调试服务。",
+  "indexing": true
+}

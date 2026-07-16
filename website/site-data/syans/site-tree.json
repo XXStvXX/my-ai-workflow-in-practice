@@ -1,0 +1,275 @@
+{
+  "schemaVersion": "1.0.0",
+  "contentVersion": "2026-07-15-v3",
+  "status": "implemented-v3",
+  "locale": "zh-CN",
+  "market": "CN-mainland",
+  "basePath": "/lab/syans",
+  "basePathConfigurable": true,
+  "branding": {
+    "visualDirection": "A-precision-engineering-catalogue",
+    "logoStatus": "confirmed-user-provided-svg",
+    "paletteReviewRequiredAfterLogoUpdate": false
+  },
+  "primaryNavigation": [
+    "home",
+    "products",
+    "services",
+    "downloads",
+    "about",
+    "contact"
+  ],
+  "siteTree": [
+    {
+      "id": "home",
+      "title": "首页",
+      "route": "/",
+      "level": 1,
+      "template": "home",
+      "purpose": "仅展示公司定位和网站整体概述，不承载产品、维修、下载、关于或联系栏目的内容物",
+      "sections": [
+        "hero",
+        "news-events-poster-window",
+        "company-overview"
+      ],
+      "primaryGoal": "让访问者理解公司定位，并通过全站主导航选择后续栏目",
+      "primaryActions": []
+    },
+    {
+      "id": "products",
+      "title": "产品中心",
+      "route": "/products/",
+      "level": 1,
+      "template": "product-index",
+      "purpose": "按设备类型进入独立产品分类，再进入具体型号详情",
+      "children": [
+        {
+          "id": "servo-drives",
+          "title": "安川伺服驱动器",
+          "route": "/products/servo-drives/",
+          "level": 2,
+          "template": "product-category",
+          "detailRouteTemplate": "/products/servo-drives/[product-slug]/",
+          "contentStatus": "source-site-inventory-required"
+        },
+        {
+          "id": "spindle-drives",
+          "title": "安川主轴驱动器",
+          "route": "/products/spindle-drives/",
+          "level": 2,
+          "template": "product-category",
+          "detailRouteTemplate": "/products/spindle-drives/[product-slug]/",
+          "contentStatus": "source-site-inventory-required"
+        },
+        {
+          "id": "cnc-systems",
+          "title": "安川数控系统",
+          "route": "/products/cnc-systems/",
+          "level": 2,
+          "template": "product-category",
+          "detailRouteTemplate": "/products/cnc-systems/[product-slug]/",
+          "contentStatus": "source-site-inventory-required"
+        },
+        {
+          "id": "motors-encoders",
+          "title": "安川编码器和电机",
+          "route": "/products/motors-encoders/",
+          "level": 2,
+          "template": "product-category",
+          "detailRouteTemplate": "/products/motors-encoders/[product-slug]/",
+          "contentStatus": "source-site-inventory-required"
+        },
+        {
+          "id": "inverters",
+          "title": "安川变频器",
+          "route": "/products/inverters/",
+          "level": 2,
+          "template": "product-category",
+          "detailRouteTemplate": "/products/inverters/[product-slug]/",
+          "contentStatus": "source-site-inventory-required"
+        }
+      ]
+    },
+    {
+      "id": "services",
+      "title": "维修服务",
+      "route": "/services/",
+      "level": 1,
+      "template": "service-index",
+      "purpose": "展示维修方向、服务流程和咨询入口，每项服务具有独立页面",
+      "children": [
+        {
+          "id": "spindle-drive-repair",
+          "title": "安川主轴驱动器维修",
+          "route": "/services/spindle-drive-repair/",
+          "level": 2,
+          "template": "service-detail",
+          "contentStatus": "real-process-and-photo-material-required"
+        },
+        {
+          "id": "servo-drive-repair",
+          "title": "安川伺服驱动器维修",
+          "route": "/services/servo-drive-repair/",
+          "level": 2,
+          "template": "service-detail",
+          "contentStatus": "real-process-and-photo-material-required"
+        },
+        {
+          "id": "cnc-system-repair",
+          "title": "安川数控系统维修",
+          "route": "/services/cnc-system-repair/",
+          "level": 2,
+          "template": "service-detail",
+          "contentStatus": "real-process-and-photo-material-required"
+        },
+        {
+          "id": "motor-repair",
+          "title": "安川电机维修",
+          "route": "/services/motor-repair/",
+          "level": 2,
+          "template": "service-detail",
+          "contentStatus": "real-process-and-photo-material-required"
+        },
+        {
+          "id": "inverter-repair",
+          "title": "安川变频器维修",
+          "route": "/services/inverter-repair/",
+          "level": 2,
+          "template": "service-detail",
+          "contentStatus": "real-process-and-photo-material-required"
+        },
+        {
+          "id": "junma-servo-repair",
+          "title": "安川骏马伺服维修",
+          "route": "/services/junma-servo-repair/",
+          "level": 2,
+          "template": "service-detail",
+          "contentStatus": "scope-confirmation-required"
+        },
+        {
+          "id": "machine-tool-spindle-repair",
+          "title": "数控机床主轴维修",
+          "route": "/services/machine-tool-spindle-repair/",
+          "level": 2,
+          "template": "service-detail",
+          "contentStatus": "real-process-and-photo-material-required"
+        }
+      ]
+    },
+    {
+      "id": "downloads",
+      "title": "资料下载",
+      "route": "/downloads/",
+      "level": 1,
+      "template": "download-index",
+      "purpose": "提供经过版本、有效性和版权确认的产品资料",
+      "contentTypes": [
+        {
+          "id": "manuals",
+          "title": "使用说明书",
+          "status": "version-review-required"
+        },
+        {
+          "id": "catalogues",
+          "title": "产品样本",
+          "status": "version-review-required"
+        },
+        {
+          "id": "software",
+          "title": "软件工具",
+          "status": "blocked-until-license-and-security-confirmed"
+        }
+      ]
+    },
+    {
+      "id": "about",
+      "title": "关于我们",
+      "route": "/about/",
+      "level": 1,
+      "template": "about",
+      "sections": [
+        "company-profile",
+        "business-scope",
+        "technical-capability",
+        "authorization-and-qualifications",
+        "real-company-and-workshop-photos"
+      ],
+      "contentStatus": "company-history-qualification-and-photo-material-required"
+    },
+    {
+      "id": "contact",
+      "title": "联系我们",
+      "route": "/contact/",
+      "level": 1,
+      "template": "contact",
+      "channels": [
+        {
+          "type": "wechat",
+          "status": "qr-code-required"
+        },
+        {
+          "type": "telephone",
+          "value": "024-31976758",
+          "status": "final-confirmation-required"
+        },
+        {
+          "type": "email",
+          "value": "ansheng@syans.com.cn",
+          "status": "final-confirmation-required"
+        }
+      ],
+      "excluded": [
+        "qq",
+        "address",
+        "map"
+      ]
+    }
+  ],
+  "utilityRoutes": [
+    {
+      "id": "search",
+      "title": "站内搜索",
+      "route": "/search/",
+      "navigation": "utility",
+      "status": "planned-after-content-inventory"
+    },
+    {
+      "id": "not-found",
+      "title": "页面未找到",
+      "route": "/404/",
+      "navigation": "hidden",
+      "status": "required"
+    },
+    {
+      "id": "privacy",
+      "title": "隐私说明",
+      "route": "/privacy/",
+      "navigation": "footer",
+      "status": "required-only-if-contact-form-or-analytics-collects-personal-data"
+    }
+  ],
+  "globalRules": {
+    "breadcrumbsFromLevel": 2,
+    "noHashPlaceholderLinks": true,
+    "noFakeDownloads": true,
+    "noAiGeneratedBusinessImagesWithoutExplicitApproval": true,
+    "logoAssetStatus": "confirmed-user-provided-svg",
+    "allExternalAssetsRequireSourceRecords": true,
+    "headerIsPrimaryBrandPlacement": true,
+    "footerLogoEnabled": false,
+    "onePrimaryCtaPerPageBody": true,
+    "duplicateBodyTargetsAllowed": false,
+    "zeroPosterState": "bordered-window-with-neutral-gray-fill",
+    "navigationDropdownsRequireAtLeastTwoRealChildren": true
+  },
+  "materialGaps": [
+    "/lab/syans/assets/posters/ansheng-18th-anniversary.webp",
+    "/lab/syans/assets/wechat/wechat-qr.png",
+    "/lab/syans/assets/company/company-01.webp",
+    "/lab/syans/assets/company/workshop-01.webp",
+    "/lab/syans/assets/company/team-01.webp",
+    "/lab/syans/assets/products/<category>/<model>.webp",
+    "/lab/syans/assets/services/<service-slug>/<photo>.webp",
+    "/lab/syans/downloads/<verified-document>.pdf"
+  ]
+}

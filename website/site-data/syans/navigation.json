@@ -1,0 +1,52 @@
+{
+  "schemaVersion": "1.0.0",
+  "contentVersion": "2026-07-15-v3",
+  "basePath": "/lab/syans",
+  "items": [
+    { "label": "首页", "href": "/lab/syans" },
+    {
+      "label": "产品",
+      "href": "/lab/syans/products",
+      "children": [
+        { "label": "伺服驱动器", "href": "/lab/syans/products/servo-drives" },
+        { "label": "主轴驱动器", "href": "/lab/syans/products/spindle-drives" },
+        { "label": "数控系统", "href": "/lab/syans/products/cnc-systems" },
+        { "label": "电机与编码器", "href": "/lab/syans/products/motors-encoders" },
+        { "label": "变频器", "href": "/lab/syans/products/inverters" }
+      ]
+    },
+    {
+      "label": "维修服务",
+      "href": "/lab/syans/services",
+      "children": [
+        { "label": "主轴驱动器维修", "href": "/lab/syans/services/spindle-drive-repair" },
+        { "label": "伺服驱动器维修", "href": "/lab/syans/services/servo-drive-repair" },
+        { "label": "数控系统维修", "href": "/lab/syans/services/cnc-system-repair" },
+        { "label": "电机维修", "href": "/lab/syans/services/motor-repair" },
+        { "label": "变频器维修", "href": "/lab/syans/services/inverter-repair" },
+        { "label": "骏马伺服维修", "href": "/lab/syans/services/junma-servo-repair" },
+        { "label": "数控机床主轴维修", "href": "/lab/syans/services/machine-tool-spindle-repair" }
+      ]
+    },
+    { "label": "资料下载", "href": "/lab/syans/downloads" },
+    { "label": "关于安盛", "href": "/lab/syans/about" },
+    { "label": "联系我们", "href": "/lab/syans/contact" }
+  ],
+  "footerGroups": [
+    {
+      "label": "业务目录",
+      "items": [
+        { "label": "产品", "href": "/lab/syans/products" },
+        { "label": "维修服务", "href": "/lab/syans/services" },
+        { "label": "资料下载", "href": "/lab/syans/downloads" }
+      ]
+    },
+    {
+      "label": "公司信息",
+      "items": [
+        { "label": "关于安盛", "href": "/lab/syans/about" },
+        { "label": "联系我们", "href": "/lab/syans/contact" }
+      ]
+    }
+  ]
+}

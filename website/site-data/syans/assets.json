@@ -1,0 +1,37 @@
+{
+  "schemaVersion": "1.0.0",
+  "contentVersion": "2026-07-15-v2",
+  "assets": [
+    {
+      "id": "company-logo-primary",
+      "type": "logo",
+      "status": "confirmed",
+      "sourceType": "user-provided-company-asset",
+      "sourceFileName": "LOGO.svg",
+      "receivedAt": "2026-07-15",
+      "workingPath": "public/lab/syans/assets/logo/ansheng-logo.svg",
+      "archivePath": "migration/syans/source-assets/logo/2026-07-15/ansheng-logo.svg",
+      "publicPath": "/lab/syans/assets/logo/ansheng-logo.svg",
+      "format": "image/svg+xml",
+      "width": 1844,
+      "height": 853,
+      "viewBox": "0 0 1844 853",
+      "colors": [
+        "#151A20",
+        "#E11B21"
+      ],
+      "sha256": "e7e3313b9e8ca43ef815a8a514be5ba673a4db3d0c6fb257618a82fcf9b2cc64",
+      "usage": [
+        "site-header",
+        "brand-reference"
+      ],
+      "rules": [
+        "Do not stretch or distort",
+        "Do not redraw",
+        "Do not recolor without explicit approval",
+        "Preserve the original aspect ratio",
+        "Use the original SVG whenever possible"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "schemaVersion": "1.0.0",
+  "contentVersion": "2026-07-15-v2",
+  "items": [
+    { "code": "P-01", "slug": "servo-drives", "name": "伺服驱动器", "en": "SERVO DRIVES", "summary": "伺服单元、驱动器及配套技术支持。", "scope": ["设备识别与选型信息确认", "驱动器故障检测与维修衔接", "相关技术资料整理"] },
+    { "code": "P-02", "slug": "spindle-drives", "name": "主轴驱动器", "en": "SPINDLE DRIVES", "summary": "主轴驱动系统产品与维修支持。", "scope": ["主轴驱动设备信息确认", "故障现象与运行状态记录", "维修、测试与调试衔接"] },
+    { "code": "P-03", "slug": "cnc-systems", "name": "数控系统", "en": "CNC SYSTEMS", "summary": "数控系统及相关控制设备支持。", "scope": ["系统系列与版本信息确认", "故障检测与维修需求梳理", "技术资料与备件信息查询"] },
+    { "code": "P-04", "slug": "motors-encoders", "name": "电机与编码器", "en": "MOTORS & ENCODERS", "summary": "电机、编码器及相关部件支持。", "scope": ["铭牌与接口信息确认", "电机与反馈部件故障检测", "维修与配套需求沟通"] },
+    { "code": "P-05", "slug": "inverters", "name": "变频器", "en": "INVERTERS", "summary": "工业变频器产品与技术服务。", "scope": ["设备系列和功率信息确认", "报警与运行故障记录", "检测、维修与调试支持"] }
+  ]
+}
